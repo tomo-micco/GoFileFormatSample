@@ -1,0 +1,2 @@
+# GoFileFormatSample
+Go言語でのファイルフォーマットサンプル実装
