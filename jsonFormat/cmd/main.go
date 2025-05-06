@@ -11,4 +11,7 @@ func main() {
 	user := samplecodes.User{Id: "1", Name: "John", Address: "SampleAddress", EMail: "hogehoeg_hogehoge@hoge.jphoge"}
 	user.JsonEncodeSample()
 	user.JsonMarshalSample()
+
+	// スライスのエンコード
+	samplecodes.SliceEncodeSample()
 }
