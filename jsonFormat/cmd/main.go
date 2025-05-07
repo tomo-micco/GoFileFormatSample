@@ -14,4 +14,12 @@ func main() {
 
 	// スライスのエンコード
 	samplecodes.SliceEncodeSample()
+
+	// omitemptyのエンコード
+	samplecodes.OmitemptySampleEncode()
+	samplecodes.OmitemptyDistinguishSample()
+
+	// 未知フィールドのエラー
+	samplecodes.ThrowErrorUnknownFieldsSample()
+
 }
