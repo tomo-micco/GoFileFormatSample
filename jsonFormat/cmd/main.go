@@ -20,6 +20,11 @@ func main() {
 	samplecodes.OmitemptyDistinguishSample()
 
 	// 未知フィールドのエラー
-	samplecodes.ThrowErrorUnknownFieldsSample()
+	// samplecodes.ThrowErrorUnknownFieldsSample()
+
+	// Json.Marshalの拡張サンプル
+	samplecodes.JsonEncoderExtendSample()
+	// Json.Unmarshalの拡張サンプル
+	samplecodes.JsonDecoderExtendSample()
 
 }
