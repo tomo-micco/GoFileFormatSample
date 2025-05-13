@@ -12,4 +12,7 @@ func main() {
 
 	// CSVファイル書き込みサンプル
 	// samplecodes.WriteCSVSample()
+
+	// BOM付きファイルの扱いサンプル
+	samplecodes.ReadWithBomSample()
 }
