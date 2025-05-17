@@ -15,4 +15,7 @@ func main() {
 
 	// BOM付きファイルの扱いサンプル
 	samplecodes.ReadWithBomSample()
+
+	// マルチレイアウトCSVの読み込みサンプル
+	samplecodes.ReadMultiLayoutCSVSample()
 }
